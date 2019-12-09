@@ -1,0 +1,48 @@
+#header{
+    background-image: linear-gradient(90deg,  rgba(7, 7, 7, 0),rgba(7, 7, 7, 0.657)), url("big-11.jpg");
+    height:45rem;
+    background-size: cover;
+    
+    /* background-repeat: no-repeat; */
+}
+nav {
+    color: aliceblue;
+    /* opacity: 0.1; */
+}
+#navbarSupportedContent{
+    /* opacity: 0.9 ; */
+    margin: 0px 1000px ;
+}
+a{
+    font-weight: 100px !important;
+    color: white !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 13px !important;
+    
+}
+@media screen and (max-width:500px){
+    #header nav{
+        width: 2 3rem;
+    }
+}
+@media screen and (min-width:1000px){
+   #header{
+       color: red;
+   }
+}
+.job-done{
+    font-size:5rem;
+}
+.header2{
+    background-image:linear-gradient(90deg,  rgba(7, 7, 7, 0),rgba(7, 7, 7, 0.657)), url("../imagess/second\ header\ image.jpg");
+    height:30rem;
+    background-size: cover;
+    /* text-align: right; */
+    color: white;
+    background-attachment: fixed;
+}
+
+.go{
+    margin-left: 0px !important;
+background-color: rgba(75, 74, 74, 0.452);
+}
